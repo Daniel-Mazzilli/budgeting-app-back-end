@@ -13,6 +13,9 @@ app.use(morgan("tiny"));
 app.use(cors());
 app.use("/transactions", transactionsController);
 
+console.log(Date.now());
+console.log(Date.now());
+
 // Routes
 app.get("/", (req, res) => {
   res.status(200).send("Welcome to the budgeting API");
@@ -20,12 +23,6 @@ app.get("/", (req, res) => {
 
 app.get("/not-found", (req, res) => {
   res.status(404).json({ error: "Page not found" });
-});
-
-app.get("/invalid-input", (req, res) => {
-  res.status(422).json({
-    error: "Invalid input",
-  });
 });
 
 app.get("*", (req, res) => {
