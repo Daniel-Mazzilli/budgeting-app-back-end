@@ -5,11 +5,11 @@ const checkInput = (req, res, next) => {
     if (condition1 || condition2) {
       return res.status(422).json({
         error: "Invalid input",
-        item_name: "string data type",
-        amount: "number data type",
-        date: "string data type",
-        from: "string data type",
-        category: "string data type",
+        item_name: "string data type required",
+        amount: "number data type required",
+        date: "string data type required",
+        from: "string data type required",
+        category: "string data type required",
       });
     }
   }
