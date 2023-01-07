@@ -16,4 +16,26 @@ const checkInput = (req, res, next) => {
   next();
 };
 
-module.exports = { checkInput };
+const findByID = (array, id) => {
+  let obj = {
+    element: undefined,
+    index: undefined,
+  };
+  array.find((e, i) => {
+    if (e.id === +id) {
+      obj = {
+        element: e,
+        index: i,
+      };
+    }
+  });
+  return obj;
+};
+
+const incorrectID = (response) => {
+  return response.status(404).json({
+    error: "id cannot be found",
+  });
+};
+
+module.exports = { checkInput, findByID, incorrectID };
