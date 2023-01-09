@@ -4,7 +4,7 @@ module.exports = [
     amount: 6000,
     from: "Work",
     category: "Income",
-    date: "01/04/2023",
+    date: "2023-01-04",
     id: 1672934595738,
   },
   {
@@ -12,7 +12,7 @@ module.exports = [
     amount: 10,
     from: "Planet Fitness",
     category: "Subscription",
-    date: "01/05/2023",
+    date: "2023-01-05",
     id: 1672934833301,
   },
   {
@@ -20,7 +20,7 @@ module.exports = [
     amount: 25,
     from: "AMC",
     category: "Subscription",
-    date: "01/05/2023",
+    date: "2023-01-05",
     id: 1672934833302,
   },
   {
@@ -28,7 +28,7 @@ module.exports = [
     amount: 2.75,
     from: "MTA",
     category: "Expense",
-    date: "01/05/2023",
+    date: "2023-01-05",
     id: 1672934833303,
   },
   {
@@ -36,7 +36,7 @@ module.exports = [
     amount: 120,
     from: "Investements",
     category: "Profit",
-    date: "01/05/2023",
+    date: "2023-01-05",
     id: 1672934833304,
   },
   {
@@ -44,7 +44,7 @@ module.exports = [
     amount: 500,
     from: "Sony",
     category: "Purchase",
-    date: "01/05/2023",
+    date: "2023-01-05",
     id: 1672934833305,
   },
   {
@@ -52,7 +52,7 @@ module.exports = [
     amount: 1000,
     from: "GOV",
     category: "Tax",
-    date: "01/05/2023",
+    date: "2023-01-05",
     id: 1672934833306,
   },
   {
@@ -60,7 +60,7 @@ module.exports = [
     amount: 700,
     from: "ITA Airways",
     category: "Travel and Leisure",
-    date: "01/05/2023",
+    date: "2023-01-05",
     id: 1672934833307,
   },
   {
@@ -68,7 +68,7 @@ module.exports = [
     amount: 20,
     from: "Spectrum",
     category: "Utility Bills",
-    date: "01/05/2023",
+    date: "2023-01-05",
     id: 1672934833308,
   },
 ];
