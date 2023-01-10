@@ -51,7 +51,7 @@ module.exports = [
     item_name: "Income Tax",
     amount: -1000,
     from: "GOV",
-    category: "Tax",
+    category: "Taxes",
     date: "2023-01-05",
     id: 1672934833306,
   },
