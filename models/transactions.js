@@ -9,7 +9,7 @@ module.exports = [
   },
   {
     item_name: "Gym",
-    amount: 10,
+    amount: -10,
     from: "Planet Fitness",
     category: "Subscription",
     date: "2023-01-05",
@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     item_name: "AMC A-list",
-    amount: 25,
+    amount: -25,
     from: "AMC",
     category: "Subscription",
     date: "2023-01-05",
@@ -25,7 +25,7 @@ module.exports = [
   },
   {
     item_name: "Subway Fare",
-    amount: 2.75,
+    amount: -2.75,
     from: "MTA",
     category: "Expense",
     date: "2023-01-05",
@@ -41,7 +41,7 @@ module.exports = [
   },
   {
     item_name: "PS5",
-    amount: 500,
+    amount: -500,
     from: "Sony",
     category: "Purchase",
     date: "2023-01-05",
@@ -49,7 +49,7 @@ module.exports = [
   },
   {
     item_name: "Income Tax",
-    amount: 1000,
+    amount: -1000,
     from: "GOV",
     category: "Tax",
     date: "2023-01-05",
@@ -57,7 +57,7 @@ module.exports = [
   },
   {
     item_name: "Flight to Rome",
-    amount: 700,
+    amount: -700,
     from: "ITA Airways",
     category: "Travel and Leisure",
     date: "2023-01-05",
@@ -65,7 +65,7 @@ module.exports = [
   },
   {
     item_name: "Internet",
-    amount: 20,
+    amount: -20,
     from: "Spectrum",
     category: "Utility Bills",
     date: "2023-01-05",
