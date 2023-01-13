@@ -1,7 +1,7 @@
 module.exports = [
   {
     item_name: "Salary",
-    amount: 6000,
+    amount: 10000,
     from: "Work",
     category: "Income",
     date: "2023-01-04",
@@ -40,9 +40,9 @@ module.exports = [
     id: 1672934833304,
   },
   {
-    item_name: "PS5",
-    amount: -500,
-    from: "Sony",
+    item_name: "Soccer Boots",
+    amount: -100,
+    from: "Nike",
     category: "Purchase",
     date: "2023-01-05",
     id: 1672934833305,
@@ -70,5 +70,13 @@ module.exports = [
     category: "Utility Bills",
     date: "2023-01-05",
     id: 1672934833308,
+  },
+  {
+    item_name: "Groceries",
+    amount: -80,
+    from: "Trader Joe's",
+    category: "Expense",
+    date: "2023-01-05",
+    id: 1672934833309,
   },
 ];
